@@ -1,0 +1,26 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+body{
+    background-color: rgba(10, 20, 30, 0.241);
+}
+#click{
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 25px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius:10px;
+    text-align: 3rem;
+}
+.container{
+    display: flex;
+   
+}
