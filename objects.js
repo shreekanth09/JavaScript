@@ -1,44 +1,36 @@
-// let one={
-   
-//    calcTax(){
-// console.log("Tax is 10%");
-//    }
-// };
+const info={
+    firstName:"shreekanth",
+    lastName:"shiva",
+    // age:21,
+    birth:2004,
+    work:"devolaper",
+    frds:["uday","sohan","shiva"],
+    job:"developer",
+    license:true,
+    // clcage:function(){         //passiong funciton inside an object
+    //     console.log(this);
+    //     // return  2025-this.birth;    // this keyword using to acces the key in the object;
+    //     this.age=2025-this.birth;//this is used to add an property in our object
+    //     return this.age;
+    // }
+    find:function(){
+        return `${this.firstName} is a ${2025-this.birth} year old ${this.work} and hi has ${this.license ? "a":"no"} license`;
+    }
+    
+};
+console.log(info.find());
+// const key="Name";
+// console.log(info["first"+key]); //something u didnt know
+// console.log(info["last"+key]);
+// console.log(info.age);
+// console.log(info["frds"]);
+// console.log(info.clcage());
 
-// let shreekanth={
-//     salary:50000,
-// };
-// let shreekanth2={
-//     salary:50000,
-// };
-// let shreekanth3={
-//     salary:50000,
-//     calcTax(){
-//         console.log("Tax is 20%");
-//            }
-// };
-// let shreekanth4={
-//     salary:50000,
-// };
-// shreekanth.__proto__=one;
-// shreekanth2.__proto__=one;
-// shreekanth3.__proto__=one;
-// shreekanth4.__proto__=one;
-// // shreekanth5.__proto__=one;
+// const choose=prompt("what passion do you like choose ,firstName,age,job ");        
+// console.log(info[choose]);  //thsi is called bracket notation
+// console.log(info.choose);  // its dont work 
 
-// let touch=document.querySelector("#cls");
-// let body=document.querySelector("body");
-// touch.addEventListener("click",()=>{
-//   console.log(touch.innerText="Pu");
-//   touch.style.backgroundColor="black";
-//   body.style.backgroundColor="red";
-// });
-// touch.addEventListener("dblclick",()=>{
-//     console.log(touch.innerText="SSLC");
-//     touch.style.backgroundColor="BLUE";
-//     body.style.backgroundColor="green";
-//   })
-let x=[1,2,3];
-x.append([4,5]);
-// console.log(x);
-print(len(x))
+//lear how to add new properties to our object
+// info.location="javagal";
+// info["state"]="karnataka";
+// console.log(info);
